@@ -1,0 +1,44 @@
+public class StringRev{
+static str repl="";
+ 
+ public static void main(String[] arg){
+ 
+ String str= "Java Interview";
+ char ch='a';
+ 
+ replaceChar(str,ch);
+ }
+ 
+ public static replaceChar(string s,char rep){
+ int len=s.length();
+ for ( int i=0:i=<len();)
+ {
+ if(s[i}]==rep)
+  s.replace(s.charAt(i), "");
+  }
+  
+  System.out.println("The removal of all occurences ofa in str is "+ s);
+  
+ 
+ }
+ 
+ 
+ 
+ // second solution
+ 
+ public class strRev{
+ 
+ public static void main(String[] arg){
+ String str="Java Interview";
+ char rep= 'a';
+ String newstr= str.replaceAll('a','');
+ System.out.println("The new str is "+ newstr);
+ }
+}
+
+Junit cases will be :
+1) public void Test() ;
+a) Happy path-- successful removal of reoccurence of char in string
+b) validation of empty string
+c) single char string
+d) Null pointer exception
